@@ -3,7 +3,7 @@ import React from 'react'
 import { storiesOf } from '@storybook/react'
 import { action } from '@storybook/addon-actions'
 import { linkTo } from '@storybook/addon-links'
-import { Link } from '../src/index'
+import Link from './Link'
 import { withInfo } from '@storybook/addon-info'
 import StoryRouter from 'storybook-react-router'
 

@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import Headroom from 'react-headroom'
 
 import LogoImage from '../logos/oira-logo.svg'
-import Link from '../Link'
+import Link from '../Link/Link'
 
 class LightNav extends React.Component {
   render() {

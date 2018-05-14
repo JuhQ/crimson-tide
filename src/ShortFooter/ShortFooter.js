@@ -1,9 +1,9 @@
 import React from 'react'
-import Link from '../Link.js'
+import Link from '../Link/Link'
 import styled from 'styled-components'
 import Obfuscate from 'react-obfuscate'
 
-const SmFooter = props => {
+const ShortFooter = props => {
   let date = new Date()
   let year = date.getFullYear()
   return (
@@ -26,7 +26,7 @@ const SmFooter = props => {
   )
 }
 
-export default SmFooter
+export default ShortFooter
 
 const ColorWrapper = styled.div`
   position: relative;

@@ -6,7 +6,8 @@ import { linkTo } from '@storybook/addon-links'
 import { withInfo } from '@storybook/addon-info'
 import StoryRouter from 'storybook-react-router'
 
-import { LightNav, LightLink } from '../../src/index'
+import LightNav from './LightNav'
+import LightLink from './LightLink'
 
 const LightLinks = [
   { title: 'Planning Group', path: '/planning-group' },

@@ -1,7 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import Link from '../Link.js'
+import Link from '../Link/Link'
+
 
 const NavLink = styled(Link)`
   color: white !important;

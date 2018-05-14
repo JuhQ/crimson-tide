@@ -4,7 +4,7 @@ import { action } from '@storybook/addon-actions'
 import { linkTo } from '@storybook/addon-links'
 import { withInfo } from '@storybook/addon-info'
 
-import { Tabs, Tab } from '../src/index'
+import { Tabs, Tab } from './Tabs'
 
 
 

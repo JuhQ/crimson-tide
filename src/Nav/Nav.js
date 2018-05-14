@@ -1,10 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
 import Headroom from 'react-headroom'
-import NavLink from './NavLink'
-import Link from '../Link.js'
 import LogoImage from '../logos/alair-logo.svg'
 import MenuIcon from './menu-arrow.svg'
+
+import Link from '../Link/Link'
+
 
 export default class NavWithMenu extends React.Component {
   constructor(props) {

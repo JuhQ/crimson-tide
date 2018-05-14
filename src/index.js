@@ -1,13 +1,13 @@
 // Navigation
-import Nav from './Navigation/Nav.js'
-import LightNav from './Navigation/LightNav.js'
-import NavWithMenu from './Navigation/NavWithMenu.js'
-import NavLink from './Navigation/NavLink.js'
-import LightLink from './Navigation/LightLink.js'
-import PageTitle from './PageTitle.js'
-import Main from './Main.js'
-import ShortFooter from './Footer/ShortFooter.js'
-import LogoFooter from './Footer/LogoFooter.js'
+import Nav from './Nav/Nav'
+import LightNav from './LightNav/LightNav'
+import NavWithMenu from './NavWithMenu/NavWithMenu'
+import NavLink from './Nav/NavLink'
+import LightLink from './LightNav/LightLink'
+import PageTitle from './PageTitle/PageTitle'
+import Main from './Main/Main'
+import ShortFooter from './ShortFooter/ShortFooter'
+import LogoFooter from './LogoFooter/LogoFooter'
 
 // Logos
 import ChimeIn from './logos/chime-in.svg'
@@ -15,8 +15,8 @@ import GDGD from './logos/gdgd.svg'
 import OIRALogo from './logos/oira-logo.svg'
 import ALAIR from './logos/alair-logo.svg'
 import OiraStyles from './styles/oira-styles.css'
-import { Tabs, Tab } from './Tabs.js'
-import Link from './Link.js'
+import { Tabs, Tab } from './Tabs/Tabs'
+import Link from './Link/Link'
 
 export {
   Nav,

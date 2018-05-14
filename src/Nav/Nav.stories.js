@@ -1,12 +1,13 @@
 import React from 'react'
-
 import { storiesOf } from '@storybook/react'
 import { action } from '@storybook/addon-actions'
 import { linkTo } from '@storybook/addon-links'
 import { withInfo } from '@storybook/addon-info'
 import StoryRouter from 'storybook-react-router'
 
-import { Nav, ChimeIn, NavLink } from '../../src/index'
+import Nav from './Nav'
+import NavLink from './NavLink'
+import {ChimeIn} from '../logos/chime-in.svg'
 
 const NavLinks = [
   { title: 'Planning Group', path: '/planning-group' },

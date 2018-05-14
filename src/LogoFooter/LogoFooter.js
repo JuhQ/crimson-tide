@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from '../Link.js'
+import Link from '../Link/Link'
 import styled from 'styled-components'
 
 import GDGD from '../logos/gdgd.svg'

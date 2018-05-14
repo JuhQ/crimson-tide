@@ -6,7 +6,7 @@ import { linkTo } from '@storybook/addon-links'
 import { withInfo } from '@storybook/addon-info'
 import StoryRouter from 'storybook-react-router'
 
-import { NavLink } from '../../src/index'
+import NavLink from './NavLink'
 
 const NavLinks = [
   { title: 'Planning Group', path: '/planning-group' },
