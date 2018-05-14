@@ -26,10 +26,7 @@ storiesOf('Navigation', module)
       ~~~
     
     `)(() => (
-      <NavLink
-        color='green'
-        to="/resources"
-      >
+      <NavLink color="green" to="/resources">
         Resources
       </NavLink>
     ))

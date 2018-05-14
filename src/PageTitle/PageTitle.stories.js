@@ -7,7 +7,6 @@ import { withInfo } from '@storybook/addon-info'
 
 import { PageTitle } from './PageTitle'
 
-
 storiesOf('PageTitle', module).add(
   'PageTitle',
   withInfo(`

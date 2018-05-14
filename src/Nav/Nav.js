@@ -6,7 +6,6 @@ import MenuIcon from './menu-arrow.svg'
 
 import Link from '../Link/Link'
 
-
 export default class NavWithMenu extends React.Component {
   constructor(props) {
     super(props)

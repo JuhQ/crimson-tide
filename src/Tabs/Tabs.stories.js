@@ -6,8 +6,6 @@ import { withInfo } from '@storybook/addon-info'
 
 import { Tabs, Tab } from './Tabs'
 
-
-
 storiesOf('Tabs', module).add(
   'Default',
   withInfo(`
@@ -31,26 +29,26 @@ storiesOf('Tabs', module).add(
       ~~~
     
     `)(() => (
-      <Tabs>
-          <Tab
-            title="Tab One"
-            render={() => (
-              <div>
-                <h1>First Tab</h1>
-                <p>Wow</p>
-              </div>
-            )}
-          />
+    <Tabs>
+      <Tab
+        title="Tab One"
+        render={() => (
+          <div>
+            <h1>First Tab</h1>
+            <p>Wow</p>
+          </div>
+        )}
+      />
 
-          <Tab
-            title="Tab Two"
-            render={() => (
-              <div>
-                <h1>Second Tab</h1>
-                <p>Neat</p>
-              </div>
-            )}
-          />
-        </Tabs>
-    ))
+      <Tab
+        title="Tab Two"
+        render={() => (
+          <div>
+            <h1>Second Tab</h1>
+            <p>Neat</p>
+          </div>
+        )}
+      />
+    </Tabs>
+  ))
 )

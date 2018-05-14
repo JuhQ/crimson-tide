@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import Link from '../Link/Link'
 
-
 const NavLink = styled(Link)`
   color: white !important;
   font-size: 16px;

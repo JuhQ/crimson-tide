@@ -8,12 +8,11 @@ import StoryRouter from 'storybook-react-router'
 
 import ShortFooter from './ShortFooter'
 
-
 storiesOf('Footer', module)
-.addDecorator(StoryRouter())
-.add(
-  'ShortFooter',
-  withInfo(`
+  .addDecorator(StoryRouter())
+  .add(
+    'ShortFooter',
+    withInfo(`
       A minimal white footer. Links open new tabs or maps, or obfuscated contact methods (i.e. email.)
       
       ~~~js
@@ -21,4 +20,4 @@ storiesOf('Footer', module)
       ~~~
     
     `)(() => <ShortFooter />)
-)
+  )
