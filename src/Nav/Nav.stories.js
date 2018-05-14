@@ -7,7 +7,7 @@ import StoryRouter from 'storybook-react-router'
 
 import Nav from './Nav'
 import NavLink from './NavLink'
-import {ChimeIn} from '../logos/chime-in.svg'
+import ChimeIn from '../logos/chime-in.svg'
 
 const NavLinks = [
   { title: 'Planning Group', path: '/planning-group' },
