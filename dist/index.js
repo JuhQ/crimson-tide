@@ -5,39 +5,39 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.NavWithMenu = exports.Link = exports.Tab = exports.Tabs = exports.OiraStyles = exports.ALAIR = exports.OIRALogo = exports.GDGD = exports.ChimeIn = exports.LogoFooter = exports.ShortFooter = exports.Main = exports.PageTitle = exports.LightNav = exports.LightLink = exports.NavLink = exports.Nav = undefined;
 
-var _Nav = require('./Navigation/Nav.js');
+var _Nav = require('./Nav/Nav');
 
 var _Nav2 = _interopRequireDefault(_Nav);
 
-var _LightNav = require('./Navigation/LightNav.js');
+var _LightNav = require('./LightNav/LightNav');
 
 var _LightNav2 = _interopRequireDefault(_LightNav);
 
-var _NavWithMenu = require('./Navigation/NavWithMenu.js');
+var _NavWithMenu = require('./NavWithMenu/NavWithMenu');
 
 var _NavWithMenu2 = _interopRequireDefault(_NavWithMenu);
 
-var _NavLink = require('./Navigation/NavLink.js');
+var _NavLink = require('./Nav/NavLink');
 
 var _NavLink2 = _interopRequireDefault(_NavLink);
 
-var _LightLink = require('./Navigation/LightLink.js');
+var _LightLink = require('./LightNav/LightLink');
 
 var _LightLink2 = _interopRequireDefault(_LightLink);
 
-var _PageTitle = require('./PageTitle.js');
+var _PageTitle = require('./PageTitle/PageTitle');
 
 var _PageTitle2 = _interopRequireDefault(_PageTitle);
 
-var _Main = require('./Main.js');
+var _Main = require('./Main/Main');
 
 var _Main2 = _interopRequireDefault(_Main);
 
-var _ShortFooter = require('./Footer/ShortFooter.js');
+var _ShortFooter = require('./ShortFooter/ShortFooter');
 
 var _ShortFooter2 = _interopRequireDefault(_ShortFooter);
 
-var _LogoFooter = require('./Footer/LogoFooter.js');
+var _LogoFooter = require('./LogoFooter/LogoFooter');
 
 var _LogoFooter2 = _interopRequireDefault(_LogoFooter);
 
@@ -61,9 +61,9 @@ var _oiraStyles = require('./styles/oira-styles.css');
 
 var _oiraStyles2 = _interopRequireDefault(_oiraStyles);
 
-var _Tabs = require('./Tabs.js');
+var _Tabs = require('./Tabs/Tabs');
 
-var _Link = require('./Link.js');
+var _Link = require('./Link/Link');
 
 var _Link2 = _interopRequireDefault(_Link);
 
