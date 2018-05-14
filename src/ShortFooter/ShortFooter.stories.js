@@ -6,7 +6,7 @@ import { linkTo } from '@storybook/addon-links'
 import { withInfo } from '@storybook/addon-info'
 import StoryRouter from 'storybook-react-router'
 
-import { ShortFooter } from './ShortFooter'
+import ShortFooter from './ShortFooter'
 
 
 storiesOf('Footer', module)
