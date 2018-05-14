@@ -1,5 +1,6 @@
 import { configure } from '@storybook/react'
 import { setDefaults } from '@storybook/addon-info'
+import OiraStyles from '../src/styles/oira-styles.css'
 
 // automatically import all files ending in *.stories.js
 const req = require.context('../src/', true, /.stories.js$/)
