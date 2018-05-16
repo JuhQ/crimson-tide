@@ -1,10 +1,10 @@
 import React from 'react'
 
+import StoryRouter from 'storybook-react-router'
 import { storiesOf } from '@storybook/react'
 import { action } from '@storybook/addon-actions'
 import { linkTo } from '@storybook/addon-links'
 import { withInfo } from '@storybook/addon-info'
-import StoryRouter from 'storybook-react-router'
 
 import LightNav from './LightNav'
 import LightLink from './LightLink'
