@@ -35,7 +35,7 @@ storiesOf('Tabs', module).add(
         render={() => (
           <div>
             <h1>First Tab</h1>
-            <p>Wow</p>
+            <a className="squiggle" href="">Wow</a>
           </div>
         )}
       />
